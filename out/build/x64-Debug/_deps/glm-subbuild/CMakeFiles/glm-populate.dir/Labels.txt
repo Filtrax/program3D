@@ -1,0 +1,14 @@
+# Target labels
+ glm-populate
+# Source files and their labels
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/CMakeFiles/glm-populate
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/CMakeFiles/glm-populate.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/CMakeFiles/glm-populate-complete.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update.rule

@@ -1,0 +1,21 @@
+# ninja log v5
+1	185	6639461261767695	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	cbe21587a1d8922b
+1	185	6639461261767695	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	cbe21587a1d8922b
+186	8182	6639461341739933	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	f4c7e5982cf5d122
+186	8182	6639461341739933	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	f4c7e5982cf5d122
+8182	10311	0	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	abf92dc78fafe13c
+8182	10311	0	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	abf92dc78fafe13c
+10487	10535	6639461365270723	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	db8ede8b37ba9ff4
+10487	10535	6639461365270723	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	db8ede8b37ba9ff4
+10535	10752	6639461365754154	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	775bfb9197e46c50
+10535	10752	6639461365754154	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	775bfb9197e46c50
+10752	10800	6639461367922173	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	387e3e4656c222c4
+10752	10800	6639461367922173	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	387e3e4656c222c4
+10800	10847	6639461368389183	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	dfa1cdd939eb232f
+10800	10847	6639461368389183	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	dfa1cdd939eb232f
+10847	10892	6639461368841847	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	5fe2c87ee0df1a09
+10847	10892	6639461368841847	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	5fe2c87ee0df1a09
+10892	10956	6639461369480053	CMakeFiles/glfw-populate-complete	29000efa33fa847e
+10892	10956	6639461369480053	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	29000efa33fa847e
+10892	10956	6639461369480053	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete	29000efa33fa847e
+10892	10956	6639461369480053	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	29000efa33fa847e

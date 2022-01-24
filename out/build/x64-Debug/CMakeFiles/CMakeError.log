@@ -1,0 +1,11 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Studia/Visual Studio/vstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b5234 && [1/2] Building C object CMakeFiles\cmTC_b5234.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_b5234.dir/CheckIncludeFile.c.obj 
+"D:\Studia\Visual Studio\vstudio\VC\Tools\MSVC\14.30.30705\bin\Hostx64\x64\cl.exe"  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd -std:c11 /showIncludes /FoCMakeFiles\cmTC_b5234.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_b5234.dir\ /FS -c D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Nie można otworzyć pliku dołącz: 'pthread.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+

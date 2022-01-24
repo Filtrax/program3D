@@ -1,0 +1,21 @@
+# ninja log v5
+1	154	6639461378283044	glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	f4c261df4ee67a1e
+1	154	6639461378283044	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	f4c261df4ee67a1e
+154	15735	6639461534104588	glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	cc5e9f26e3fc8e84
+154	15735	6639461534104588	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	cc5e9f26e3fc8e84
+15735	17948	0	glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	c6cb7603a8cbf318
+15735	17948	0	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	c6cb7603a8cbf318
+18077	18472	6639461561475832	glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	3e894ea9b1eeddcc
+18077	18472	6639461561475832	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	3e894ea9b1eeddcc
+18473	18640	6639461561952981	glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	b5dc5debe312ed5d
+18473	18640	6639461561952981	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	b5dc5debe312ed5d
+18640	18688	6639461563623509	glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	9632a62a76c9470a
+18640	18688	6639461563623509	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	9632a62a76c9470a
+18688	18734	6639461564091160	glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	c58778b4348f29e3
+18688	18734	6639461564091160	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	c58778b4348f29e3
+18735	18779	6639461564536665	glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	8faf0986227b4f73
+18735	18779	6639461564536665	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	8faf0986227b4f73
+18779	18841	6639461565158216	CMakeFiles/glm-populate-complete	39841bd00d6e995e
+18779	18841	6639461565158216	glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	39841bd00d6e995e
+18779	18841	6639461565158216	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/CMakeFiles/glm-populate-complete	39841bd00d6e995e
+18779	18841	6639461565158216	D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	39841bd00d6e995e

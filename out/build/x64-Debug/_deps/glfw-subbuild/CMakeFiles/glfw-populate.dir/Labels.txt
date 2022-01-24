@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/CMakeFiles/glfw-populate.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test.rule
+D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update.rule
