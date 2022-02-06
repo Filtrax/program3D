@@ -39,12 +39,6 @@ D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Tr
 D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Triangle/CMakeFiles/install.dir
 D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Triangle/CMakeFiles/edit_cache.dir
 D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Triangle/CMakeFiles/list_install_components.dir
-D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Indices/CMakeFiles/Indices.dir
-D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Indices/CMakeFiles/install/local.dir
-D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Indices/CMakeFiles/install.dir
-D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Indices/CMakeFiles/edit_cache.dir
-D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Indices/CMakeFiles/rebuild_cache.dir
-D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Indices/CMakeFiles/list_install_components.dir
 D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Uniforms/CMakeFiles/install/local.dir
 D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Uniforms/CMakeFiles/install.dir
 D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Uniforms/CMakeFiles/edit_cache.dir

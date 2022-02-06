@@ -54,11 +54,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Indices/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Uniforms/cmake_install.cmake")
 endif()
 

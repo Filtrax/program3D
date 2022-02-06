@@ -28,6 +28,9 @@ void SimpleShapeApplication::init()
         exit(-1);
     }
 
+    set_camera(new Camera);
+    set_controller(new CameraController(camera()));
+
     GLuint uniformBuff(0u);
     glGenBuffers(1, &uniformBuff);
     glBindBuffer(GL_UNIFORM_BUFFER, uniformBuff);
@@ -85,6 +88,7 @@ void SimpleShapeApplication::init()
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, indicesbuffer.size() * sizeof(GLushort), indicesbuffer.data(), GL_STATIC_DRAW);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 
+
     // This setups a Vertex Array Object (VAO) that  encapsulates
     // the state of all vertex buffers needed for rendering
     glGenVertexArrays(1, &vao_);
@@ -111,17 +115,51 @@ void SimpleShapeApplication::init()
     glClearColor(0.81f, 0.81f, 0.8f, 1.0f);
 
     // This setups an OpenGL vieport of the size of the whole rendering window.
-    auto [w, h] = frame_buffer_size();
-    glViewport(0, 0, w, h);
 
+    // resizing
+    //int w, h;
+    //std::tie(w, h) = frame_buffer_size();
+    //aspect_ = (float)w / h;
+    //fov_ = glm::pi<float>() / 4.0;
+    //near_ = 0.1f;
+    //far_ = 100.0f;
+    //P_ = glm::perspective(fov_, aspect_, near_, far_);
+    //V_ = glm::lookAt(glm::vec3{ 0.0f, 5.0f, 5.0f }, glm::vec3{ 0.0f, 0.0f, 0.0f }, glm::vec3{ 0.0f, 0.0f, -1.0f });
+    //glm::mat4 PVM = P_ * V_;
+
+    //auto [w, h] = frame_buffer_size();
+
+    auto [w, h] = frame_buffer_size();
+    glGenBuffers(1, &pvm);
+    glBindBuffer(GL_UNIFORM_BUFFER, pvm);
+    glBufferData(GL_UNIFORM_BUFFER, sizeof(glm::mat4), nullptr, GL_STATIC_DRAW);
+    camera_->set_aspect((float)w / h);
+    camera_->perspective(glm::half_pi<float>(), (float)w / h, 0.1f, 100.0f);
+    camera_->look_at(glm::vec3{ 1.0f, 1.0f, 1.0f }, glm::vec3{ 0.5f, 0.5f, 0.5f }, glm::vec3{ 0.0f, 0.0f, 1.0f });
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
+    glBindBufferBase(GL_UNIFORM_BUFFER, 1, pvm);
+    glViewport(0, 0, w, h);
     glUseProgram(program);
 }
 
 //This functions is called every frame and does the actual rendering.
 void SimpleShapeApplication::frame()
 {
-    // Binding the VAO will setup all the required vertex buffers.
+    glm::mat4 P = camera_->projection();
+    glm::mat4 V = camera_->view();
+    auto PVM = P * V;
+
+    glBindBuffer(GL_UNIFORM_BUFFER, pvm);
+    glBufferData(GL_UNIFORM_BUFFER, sizeof(glm::mat4), nullptr, GL_STATIC_DRAW);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), &PVM[0]);
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
     glBindVertexArray(vao_);
-    glDrawElements(GL_TRIANGLES, 9, GL_UNSIGNED_SHORT, NULL);
+    glDrawElements(GL_TRIANGLES, 9, GL_UNSIGNED_SHORT, reinterpret_cast<GLvoid*>(0));
     glBindVertexArray(0);
+}
+
+void SimpleShapeApplication::framebuffer_resize_callback(int w, int h) {
+    Application::framebuffer_resize_callback(w, h);
+    glViewport(0,0,w,h); 
+    camera_->set_aspect((float)w / h);
 }
