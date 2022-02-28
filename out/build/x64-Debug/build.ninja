@@ -50,7 +50,7 @@ cmake_ninja_workdir = D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-D
 build cmake_object_order_depends_target_glad: phony || CMakeFiles\glad.dir
 
 build CMakeFiles\glad.dir\src\3rdParty\glad\glad_4_6\glad\src\gl.c.obj: C_COMPILER__glad_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\src\gl.c || cmake_object_order_depends_target_glad
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DXE_DEBUG
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c11
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include
   OBJECT_DIR = CMakeFiles\glad.dir
@@ -216,7 +216,7 @@ build _deps\glfw-build\src\rebuild_cache: phony _deps\glfw-build\src\CMakeFiles\
 build cmake_object_order_depends_target_glfw: phony || _deps\glfw-build\src\CMakeFiles\glfw.dir
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\context.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -225,7 +225,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw_D
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\init.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -234,7 +234,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw_Debu
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\input.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -243,7 +243,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw_Deb
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\monitor.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -252,7 +252,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw_D
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\platform.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\platform.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -261,7 +261,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\platform.c.obj: C_COMPILER__glfw_
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\vulkan.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -270,7 +270,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw_De
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\window.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -279,7 +279,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw_De
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\egl_context.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -288,7 +288,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__gl
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\osmesa_context.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -297,7 +297,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER_
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\null_init.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\null_init.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -306,7 +306,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\null_init.c.obj: C_COMPILER__glfw
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\null_monitor.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\null_monitor.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -315,7 +315,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\null_monitor.c.obj: C_COMPILER__g
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\null_window.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\null_window.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -324,7 +324,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\null_window.c.obj: C_COMPILER__gl
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\null_joystick.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\null_joystick.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -333,7 +333,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\null_joystick.c.obj: C_COMPILER__
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_module.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\win32_module.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -342,7 +342,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_module.c.obj: C_COMPILER__g
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\win32_time.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -351,7 +351,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glf
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\win32_thread.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -360,7 +360,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__g
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\win32_init.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -369,7 +369,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glf
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\win32_joystick.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -378,7 +378,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER_
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\win32_monitor.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -387,7 +387,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\win32_window.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -396,7 +396,7 @@ build _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__g
   TARGET_PDB = _deps\glfw-build\src\glfw3.pdb
 
 build _deps\glfw-build\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glfw_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src\wgl_context.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DUNICODE -DXE_DEBUG -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-build\src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
@@ -598,6 +598,154 @@ build _deps\glm-build\glm\list_install_components: phony
 # D:/Studia/programowanie3D/3d-main/3d-main/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target spdlog
+
+
+#############################################
+# Order-only phony target for spdlog
+
+build cmake_object_order_depends_target_spdlog: phony || _deps\spdlog-build\CMakeFiles\spdlog.dir
+
+build _deps\spdlog-build\CMakeFiles\spdlog.dir\src\spdlog.cpp.obj: CXX_COMPILER__spdlog_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\src\spdlog.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zc:__cplusplus /MP /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = _deps\spdlog-build\spdlogd.pdb
+
+build _deps\spdlog-build\CMakeFiles\spdlog.dir\src\stdout_sinks.cpp.obj: CXX_COMPILER__spdlog_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\src\stdout_sinks.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zc:__cplusplus /MP /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = _deps\spdlog-build\spdlogd.pdb
+
+build _deps\spdlog-build\CMakeFiles\spdlog.dir\src\color_sinks.cpp.obj: CXX_COMPILER__spdlog_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\src\color_sinks.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zc:__cplusplus /MP /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = _deps\spdlog-build\spdlogd.pdb
+
+build _deps\spdlog-build\CMakeFiles\spdlog.dir\src\file_sinks.cpp.obj: CXX_COMPILER__spdlog_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\src\file_sinks.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zc:__cplusplus /MP /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = _deps\spdlog-build\spdlogd.pdb
+
+build _deps\spdlog-build\CMakeFiles\spdlog.dir\src\async.cpp.obj: CXX_COMPILER__spdlog_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\src\async.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zc:__cplusplus /MP /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = _deps\spdlog-build\spdlogd.pdb
+
+build _deps\spdlog-build\CMakeFiles\spdlog.dir\src\cfg.cpp.obj: CXX_COMPILER__spdlog_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\src\cfg.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zc:__cplusplus /MP /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = _deps\spdlog-build\spdlogd.pdb
+
+build _deps\spdlog-build\CMakeFiles\spdlog.dir\src\fmt.cpp.obj: CXX_COMPILER__spdlog_Debug D$:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\src\fmt.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zc:__cplusplus /MP /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = _deps\spdlog-build\spdlogd.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target spdlog
+
+
+#############################################
+# Link the static library _deps\spdlog-build\spdlogd.lib
+
+build _deps\spdlog-build\spdlogd.lib: CXX_STATIC_LIBRARY_LINKER__spdlog_Debug _deps\spdlog-build\CMakeFiles\spdlog.dir\src\spdlog.cpp.obj _deps\spdlog-build\CMakeFiles\spdlog.dir\src\stdout_sinks.cpp.obj _deps\spdlog-build\CMakeFiles\spdlog.dir\src\color_sinks.cpp.obj _deps\spdlog-build\CMakeFiles\spdlog.dir\src\file_sinks.cpp.obj _deps\spdlog-build\CMakeFiles\spdlog.dir\src\async.cpp.obj _deps\spdlog-build\CMakeFiles\spdlog.dir\src\cfg.cpp.obj _deps\spdlog-build\CMakeFiles\spdlog.dir\src\fmt.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zc:__cplusplus /MP /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_FILE = _deps\spdlog-build\spdlogd.lib
+  TARGET_PDB = _deps\spdlog-build\spdlogd.pdb
+
+
+#############################################
+# Utility command for install/local
+
+build _deps\spdlog-build\CMakeFiles\install\local.util: CUSTOM_COMMAND _deps\spdlog-build\all
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-build && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps\spdlog-build\install\local: phony _deps\spdlog-build\CMakeFiles\install\local.util
+
+
+#############################################
+# Utility command for install
+
+build _deps\spdlog-build\CMakeFiles\install.util: CUSTOM_COMMAND _deps\spdlog-build\all
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-build && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps\spdlog-build\install: phony _deps\spdlog-build\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps\spdlog-build\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-build && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps\spdlog-build\edit_cache: phony _deps\spdlog-build\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps\spdlog-build\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-build && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SD:\Studia\programowanie3D\3d-main\3d-main -BD:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps\spdlog-build\rebuild_cache: phony _deps\spdlog-build\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps\spdlog-build\list_install_components: phony
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Studia/programowanie3D/3d-main/3d-main/CMakeLists.txt
+# =============================================================================
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -620,7 +768,7 @@ build src\Application\rebuild_cache: phony src\Application\CMakeFiles\rebuild_ca
 build cmake_object_order_depends_target_application: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
 
 build src\Application\CMakeFiles\application.dir\application.cpp.obj: CXX_COMPILER__application_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Application\application.cpp || cmake_object_order_depends_target_application
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DXE_DEBUG
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
   OBJECT_DIR = src\Application\CMakeFiles\application.dir
@@ -629,7 +777,7 @@ build src\Application\CMakeFiles\application.dir\application.cpp.obj: CXX_COMPIL
   TARGET_PDB = src\Application\application.pdb
 
 build src\Application\CMakeFiles\application.dir\utils.cpp.obj: CXX_COMPILER__application_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Application\utils.cpp || cmake_object_order_depends_target_application
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DXE_DEBUG
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
   OBJECT_DIR = src\Application\CMakeFiles\application.dir
@@ -638,7 +786,7 @@ build src\Application\CMakeFiles\application.dir\utils.cpp.obj: CXX_COMPILER__ap
   TARGET_PDB = src\Application\application.pdb
 
 build src\Application\CMakeFiles\application.dir\shader_source.cpp.obj: CXX_COMPILER__application_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Application\shader_source.cpp || cmake_object_order_depends_target_application
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DXE_DEBUG
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
   OBJECT_DIR = src\Application\CMakeFiles\application.dir
@@ -714,6 +862,387 @@ build src\Application\list_install_components: phony
 #############################################
 # Utility command for rebuild_cache
 
+build src\ObjectReader\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\ObjectReader && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SD:\Studia\programowanie3D\3d-main\3d-main -BD:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src\ObjectReader\rebuild_cache: phony src\ObjectReader\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target objreader
+
+
+#############################################
+# Order-only phony target for objreader
+
+build cmake_object_order_depends_target_objreader: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_spdlog
+
+build src\ObjectReader\CMakeFiles\objreader.dir\obj_reader.cpp.obj: CXX_COMPILER__objreader_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\ObjectReader\obj_reader.cpp || cmake_object_order_depends_target_objreader
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = src\ObjectReader\CMakeFiles\objreader.dir
+  OBJECT_FILE_DIR = src\ObjectReader\CMakeFiles\objreader.dir
+  TARGET_COMPILE_PDB = src\ObjectReader\CMakeFiles\objreader.dir\objreader.pdb
+  TARGET_PDB = src\ObjectReader\objreader.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target objreader
+
+
+#############################################
+# Link the static library src\ObjectReader\objreader.lib
+
+build src\ObjectReader\objreader.lib: CXX_STATIC_LIBRARY_LINKER__objreader_Debug CMakeFiles\glad.dir\src\3rdParty\glad\glad_4_6\glad\src\gl.c.obj src\ObjectReader\CMakeFiles\objreader.dir\obj_reader.cpp.obj || _deps\glfw-build\src\glfw3.lib _deps\spdlog-build\spdlogd.lib glad
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = src\ObjectReader\CMakeFiles\objreader.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = src\ObjectReader\CMakeFiles\objreader.dir\objreader.pdb
+  TARGET_FILE = src\ObjectReader\objreader.lib
+  TARGET_PDB = src\ObjectReader\objreader.pdb
+
+
+#############################################
+# Utility command for install/local
+
+build src\ObjectReader\CMakeFiles\install\local.util: CUSTOM_COMMAND src\ObjectReader\all
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\ObjectReader && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src\ObjectReader\install\local: phony src\ObjectReader\CMakeFiles\install\local.util
+
+
+#############################################
+# Utility command for install
+
+build src\ObjectReader\CMakeFiles\install.util: CUSTOM_COMMAND src\ObjectReader\all
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\ObjectReader && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src\ObjectReader\install: phony src\ObjectReader\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build src\ObjectReader\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\ObjectReader && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src\ObjectReader\edit_cache: phony src\ObjectReader\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build src\ObjectReader\list_install_components: phony
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Studia/programowanie3D/3d-main/3d-main/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target xe-engine
+
+
+#############################################
+# Order-only phony target for xe-engine
+
+build cmake_object_order_depends_target_xe-engine: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_objreader cmake_object_order_depends_target_spdlog
+
+build src\XeEngine\CMakeFiles\xe-engine.dir\ColorMaterial.cpp.obj: CXX_COMPILER__xe-engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\XeEngine\ColorMaterial.cpp || cmake_object_order_depends_target_xe-engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
+  TARGET_PDB = src\XeEngine\xe-engine.pdb
+
+build src\XeEngine\CMakeFiles\xe-engine.dir\Scene.cpp.obj: CXX_COMPILER__xe-engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\XeEngine\Scene.cpp || cmake_object_order_depends_target_xe-engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
+  TARGET_PDB = src\XeEngine\xe-engine.pdb
+
+build src\XeEngine\CMakeFiles\xe-engine.dir\Mesh.cpp.obj: CXX_COMPILER__xe-engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\XeEngine\Mesh.cpp || cmake_object_order_depends_target_xe-engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
+  TARGET_PDB = src\XeEngine\xe-engine.pdb
+
+build src\XeEngine\CMakeFiles\xe-engine.dir\mesh_loader.cpp.obj: CXX_COMPILER__xe-engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\XeEngine\mesh_loader.cpp || cmake_object_order_depends_target_xe-engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
+  TARGET_PDB = src\XeEngine\xe-engine.pdb
+
+build src\XeEngine\CMakeFiles\xe-engine.dir\Node.cpp.obj: CXX_COMPILER__xe-engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\XeEngine\Node.cpp || cmake_object_order_depends_target_xe-engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
+  TARGET_PDB = src\XeEngine\xe-engine.pdb
+
+build src\XeEngine\CMakeFiles\xe-engine.dir\PhongMaterial.cpp.obj: CXX_COMPILER__xe-engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\XeEngine\PhongMaterial.cpp || cmake_object_order_depends_target_xe-engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
+  TARGET_PDB = src\XeEngine\xe-engine.pdb
+
+build src\XeEngine\CMakeFiles\xe-engine.dir\stb_image.cpp.obj: CXX_COMPILER__xe-engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\XeEngine\stb_image.cpp || cmake_object_order_depends_target_xe-engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
+  TARGET_PDB = src\XeEngine\xe-engine.pdb
+
+build src\XeEngine\CMakeFiles\xe-engine.dir\utils.cpp.obj: CXX_COMPILER__xe-engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\XeEngine\utils.cpp || cmake_object_order_depends_target_xe-engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\spdlog-src\include
+  OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
+  TARGET_PDB = src\XeEngine\xe-engine.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target xe-engine
+
+
+#############################################
+# Link the static library src\XeEngine\xe-engine.lib
+
+build src\XeEngine\xe-engine.lib: CXX_STATIC_LIBRARY_LINKER__xe-engine_Debug CMakeFiles\glad.dir\src\3rdParty\glad\glad_4_6\glad\src\gl.c.obj src\XeEngine\CMakeFiles\xe-engine.dir\ColorMaterial.cpp.obj src\XeEngine\CMakeFiles\xe-engine.dir\Scene.cpp.obj src\XeEngine\CMakeFiles\xe-engine.dir\Mesh.cpp.obj src\XeEngine\CMakeFiles\xe-engine.dir\mesh_loader.cpp.obj src\XeEngine\CMakeFiles\xe-engine.dir\Node.cpp.obj src\XeEngine\CMakeFiles\xe-engine.dir\PhongMaterial.cpp.obj src\XeEngine\CMakeFiles\xe-engine.dir\stb_image.cpp.obj src\XeEngine\CMakeFiles\xe-engine.dir\utils.cpp.obj || _deps\glfw-build\src\glfw3.lib _deps\spdlog-build\spdlogd.lib glad src\ObjectReader\objreader.lib
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
+  TARGET_FILE = src\XeEngine\xe-engine.lib
+  TARGET_PDB = src\XeEngine\xe-engine.pdb
+
+
+#############################################
+# Utility command for install/local
+
+build src\XeEngine\CMakeFiles\install\local.util: CUSTOM_COMMAND src\XeEngine\all
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\XeEngine && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src\XeEngine\install\local: phony src\XeEngine\CMakeFiles\install\local.util
+
+
+#############################################
+# Utility command for install
+
+build src\XeEngine\CMakeFiles\install.util: CUSTOM_COMMAND src\XeEngine\all
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\XeEngine && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src\XeEngine\install: phony src\XeEngine\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build src\XeEngine\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\XeEngine && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src\XeEngine\edit_cache: phony src\XeEngine\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src\XeEngine\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\XeEngine && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SD:\Studia\programowanie3D\3d-main\3d-main -BD:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src\XeEngine\rebuild_cache: phony src\XeEngine\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build src\XeEngine\list_install_components: phony
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Studia/programowanie3D/3d-main/3d-main/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target engine
+
+
+#############################################
+# Order-only phony target for engine
+
+build cmake_object_order_depends_target_engine: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_objreader cmake_object_order_depends_target_spdlog
+
+build src\Engine\CMakeFiles\engine.dir\Mesh.cpp.obj: CXX_COMPILER__engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Engine\Mesh.cpp || cmake_object_order_depends_target_engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Engine\" -DPROJECT_NAME=\"Engine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
+  OBJECT_DIR = src\Engine\CMakeFiles\engine.dir
+  OBJECT_FILE_DIR = src\Engine\CMakeFiles\engine.dir
+  TARGET_COMPILE_PDB = src\Engine\CMakeFiles\engine.dir\engine.pdb
+  TARGET_PDB = src\Engine\engine.pdb
+
+build src\Engine\CMakeFiles\engine.dir\ColorMaterial.cpp.obj: CXX_COMPILER__engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Engine\ColorMaterial.cpp || cmake_object_order_depends_target_engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Engine\" -DPROJECT_NAME=\"Engine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
+  OBJECT_DIR = src\Engine\CMakeFiles\engine.dir
+  OBJECT_FILE_DIR = src\Engine\CMakeFiles\engine.dir
+  TARGET_COMPILE_PDB = src\Engine\CMakeFiles\engine.dir\engine.pdb
+  TARGET_PDB = src\Engine\engine.pdb
+
+build src\Engine\CMakeFiles\engine.dir\texture.cpp.obj: CXX_COMPILER__engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Engine\texture.cpp || cmake_object_order_depends_target_engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Engine\" -DPROJECT_NAME=\"Engine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
+  OBJECT_DIR = src\Engine\CMakeFiles\engine.dir
+  OBJECT_FILE_DIR = src\Engine\CMakeFiles\engine.dir
+  TARGET_COMPILE_PDB = src\Engine\CMakeFiles\engine.dir\engine.pdb
+  TARGET_PDB = src\Engine\engine.pdb
+
+build src\Engine\CMakeFiles\engine.dir\PhongMaterial.cpp.obj: CXX_COMPILER__engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Engine\PhongMaterial.cpp || cmake_object_order_depends_target_engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Engine\" -DPROJECT_NAME=\"Engine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
+  OBJECT_DIR = src\Engine\CMakeFiles\engine.dir
+  OBJECT_FILE_DIR = src\Engine\CMakeFiles\engine.dir
+  TARGET_COMPILE_PDB = src\Engine\CMakeFiles\engine.dir\engine.pdb
+  TARGET_PDB = src\Engine\engine.pdb
+
+build src\Engine\CMakeFiles\engine.dir\mesh_loader.cpp.obj: CXX_COMPILER__engine_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Engine\mesh_loader.cpp || cmake_object_order_depends_target_engine
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Engine\" -DPROJECT_NAME=\"Engine\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
+  OBJECT_DIR = src\Engine\CMakeFiles\engine.dir
+  OBJECT_FILE_DIR = src\Engine\CMakeFiles\engine.dir
+  TARGET_COMPILE_PDB = src\Engine\CMakeFiles\engine.dir\engine.pdb
+  TARGET_PDB = src\Engine\engine.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target engine
+
+
+#############################################
+# Link the static library src\Engine\engine.lib
+
+build src\Engine\engine.lib: CXX_STATIC_LIBRARY_LINKER__engine_Debug CMakeFiles\glad.dir\src\3rdParty\glad\glad_4_6\glad\src\gl.c.obj src\Engine\CMakeFiles\engine.dir\Mesh.cpp.obj src\Engine\CMakeFiles\engine.dir\ColorMaterial.cpp.obj src\Engine\CMakeFiles\engine.dir\texture.cpp.obj src\Engine\CMakeFiles\engine.dir\PhongMaterial.cpp.obj src\Engine\CMakeFiles\engine.dir\mesh_loader.cpp.obj || _deps\glfw-build\src\glfw3.lib _deps\spdlog-build\spdlogd.lib glad src\ObjectReader\objreader.lib
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = src\Engine\CMakeFiles\engine.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = src\Engine\CMakeFiles\engine.dir\engine.pdb
+  TARGET_FILE = src\Engine\engine.lib
+  TARGET_PDB = src\Engine\engine.pdb
+
+
+#############################################
+# Utility command for install/local
+
+build src\Engine\CMakeFiles\install\local.util: CUSTOM_COMMAND src\Engine\all
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\Engine && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src\Engine\install\local: phony src\Engine\CMakeFiles\install\local.util
+
+
+#############################################
+# Utility command for install
+
+build src\Engine\CMakeFiles\install.util: CUSTOM_COMMAND src\Engine\all
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\Engine && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src\Engine\install: phony src\Engine\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build src\Engine\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\Engine && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src\Engine\edit_cache: phony src\Engine\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src\Engine\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\Engine && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SD:\Studia\programowanie3D\3d-main\3d-main -BD:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src\Engine\rebuild_cache: phony src\Engine\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build src\Engine\list_install_components: phony
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Studia/programowanie3D/3d-main/3d-main/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
 build src\Assignments\Triangle\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\Assignments\Triangle && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SD:\Studia\programowanie3D\3d-main\3d-main -BD:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
@@ -732,7 +1261,7 @@ build src\Assignments\Triangle\rebuild_cache: phony src\Assignments\Triangle\CMa
 build cmake_object_order_depends_target_Triangle: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
 
 build src\Assignments\Triangle\CMakeFiles\Triangle.dir\main.cpp.obj: CXX_COMPILER__Triangle_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Assignments\Triangle\main.cpp || cmake_object_order_depends_target_Triangle
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Assignments/Triangle\" -DPROJECT_NAME=\"Triangle\" -DXE_DEBUG
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Assignments/Triangle\" -DPROJECT_NAME=\"Triangle\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
   OBJECT_DIR = src\Assignments\Triangle\CMakeFiles\Triangle.dir
@@ -741,7 +1270,7 @@ build src\Assignments\Triangle\CMakeFiles\Triangle.dir\main.cpp.obj: CXX_COMPILE
   TARGET_PDB = src\Assignments\Triangle\Triangle.pdb
 
 build src\Assignments\Triangle\CMakeFiles\Triangle.dir\app.cpp.obj: CXX_COMPILER__Triangle_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Assignments\Triangle\app.cpp || cmake_object_order_depends_target_Triangle
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Assignments/Triangle\" -DPROJECT_NAME=\"Triangle\" -DXE_DEBUG
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Assignments/Triangle\" -DPROJECT_NAME=\"Triangle\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
   OBJECT_DIR = src\Assignments\Triangle\CMakeFiles\Triangle.dir
@@ -860,7 +1389,7 @@ build src\Assignments\Uniforms\edit_cache: phony src\Assignments\Uniforms\CMakeF
 build cmake_object_order_depends_target_Uniforms: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
 
 build src\Assignments\Uniforms\CMakeFiles\Uniforms.dir\main.cpp.obj: CXX_COMPILER__Uniforms_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Assignments\Uniforms\main.cpp || cmake_object_order_depends_target_Uniforms
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Assignments/Uniforms\" -DPROJECT_NAME=\"Uniforms\" -DXE_DEBUG
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Assignments/Uniforms\" -DPROJECT_NAME=\"Uniforms\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
   OBJECT_DIR = src\Assignments\Uniforms\CMakeFiles\Uniforms.dir
@@ -869,7 +1398,7 @@ build src\Assignments\Uniforms\CMakeFiles\Uniforms.dir\main.cpp.obj: CXX_COMPILE
   TARGET_PDB = src\Assignments\Uniforms\Uniforms.pdb
 
 build src\Assignments\Uniforms\CMakeFiles\Uniforms.dir\app.cpp.obj: CXX_COMPILER__Uniforms_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Assignments\Uniforms\app.cpp || cmake_object_order_depends_target_Uniforms
-  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Assignments/Uniforms\" -DPROJECT_NAME=\"Uniforms\" -DXE_DEBUG
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Assignments/Uniforms\" -DPROJECT_NAME=\"Uniforms\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
   OBJECT_DIR = src\Assignments\Uniforms\CMakeFiles\Uniforms.dir
@@ -916,7 +1445,116 @@ build src\Assignments\Uniforms\rebuild_cache: phony src\Assignments\Uniforms\CMa
 build src\Assignments\Uniforms\list_install_components: phony
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Studia/programowanie3D/3d-main/3d-main/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src\Assignments\Phong\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\Assignments\Phong && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SD:\Studia\programowanie3D\3d-main\3d-main -BD:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src\Assignments\Phong\rebuild_cache: phony src\Assignments\Phong\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Phong
+
+
+#############################################
+# Order-only phony target for Phong
+
+build cmake_object_order_depends_target_Phong: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_engine cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_objreader cmake_object_order_depends_target_spdlog
+
+build src\Assignments\Phong\CMakeFiles\Phong.dir\main.cpp.obj: CXX_COMPILER__Phong_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Assignments\Phong\main.cpp || cmake_object_order_depends_target_Phong
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Assignments/Phong\" -DPROJECT_NAME=\"Phong\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
+  OBJECT_DIR = src\Assignments\Phong\CMakeFiles\Phong.dir
+  OBJECT_FILE_DIR = src\Assignments\Phong\CMakeFiles\Phong.dir
+  TARGET_COMPILE_PDB = src\Assignments\Phong\CMakeFiles\Phong.dir\
+  TARGET_PDB = src\Assignments\Phong\Phong.pdb
+
+build src\Assignments\Phong\CMakeFiles\Phong.dir\app.cpp.obj: CXX_COMPILER__Phong_Debug D$:\Studia\programowanie3D\3d-main\3d-main\src\Assignments\Phong\app.cpp || cmake_object_order_depends_target_Phong
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main/src/Assignments/Phong\" -DPROJECT_NAME=\"Phong\" -DROOT_DIR=\"D:/Studia/programowanie3D/3d-main/3d-main\" -DXE_DEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty -ID:\Studia\programowanie3D\3d-main\3d-main\src -ID:\Studia\programowanie3D\3d-main\3d-main\src\3rdParty\glad\glad_4_6\glad\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glfw-src\include -ID:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\_deps\glm-src
+  OBJECT_DIR = src\Assignments\Phong\CMakeFiles\Phong.dir
+  OBJECT_FILE_DIR = src\Assignments\Phong\CMakeFiles\Phong.dir
+  TARGET_COMPILE_PDB = src\Assignments\Phong\CMakeFiles\Phong.dir\
+  TARGET_PDB = src\Assignments\Phong\Phong.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Phong
+
+
+#############################################
+# Link the executable src\Assignments\Phong\Phong.exe
+
+build src\Assignments\Phong\Phong.exe: CXX_EXECUTABLE_LINKER__Phong_Debug CMakeFiles\glad.dir\src\3rdParty\glad\glad_4_6\glad\src\gl.c.obj src\Assignments\Phong\CMakeFiles\Phong.dir\main.cpp.obj src\Assignments\Phong\CMakeFiles\Phong.dir\app.cpp.obj | _deps\glfw-build\src\glfw3.lib src\Application\application.lib src\Engine\engine.lib src\ObjectReader\objreader.lib _deps\glfw-build\src\glfw3.lib _deps\spdlog-build\spdlogd.lib || _deps\glfw-build\src\glfw3.lib _deps\spdlog-build\spdlogd.lib glad src\Application\application.lib src\Engine\engine.lib src\ObjectReader\objreader.lib
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = opengl32.lib  _deps\glfw-build\src\glfw3.lib  src\Application\application.lib  src\Engine\engine.lib  src\ObjectReader\objreader.lib  opengl32.lib  _deps\glfw-build\src\glfw3.lib  _deps\spdlog-build\spdlogd.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = src\Assignments\Phong\CMakeFiles\Phong.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = src\Assignments\Phong\CMakeFiles\Phong.dir\
+  TARGET_FILE = src\Assignments\Phong\Phong.exe
+  TARGET_IMPLIB = src\Assignments\Phong\Phong.lib
+  TARGET_PDB = src\Assignments\Phong\Phong.pdb
+
+
+#############################################
+# Utility command for install/local
+
+build src\Assignments\Phong\CMakeFiles\install\local.util: CUSTOM_COMMAND src\Assignments\Phong\all
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\Assignments\Phong && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src\Assignments\Phong\install\local: phony src\Assignments\Phong\CMakeFiles\install\local.util
+
+
+#############################################
+# Utility command for install
+
+build src\Assignments\Phong\CMakeFiles\install.util: CUSTOM_COMMAND src\Assignments\Phong\all
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\Assignments\Phong && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src\Assignments\Phong\install: phony src\Assignments\Phong\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build src\Assignments\Phong\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\Studia\programowanie3D\3d-main\3d-main\out\build\x64-Debug\src\Assignments\Phong && "D:\Studia\Visual Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src\Assignments\Phong\edit_cache: phony src\Assignments\Phong\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build src\Assignments\Phong\list_install_components: phony
+
+# =============================================================================
 # Target aliases.
+
+build Phong: phony src\Assignments\Phong\Phong.exe
+
+build Phong.exe: phony src\Assignments\Phong\Phong.exe
 
 build Triangle: phony src\Assignments\Triangle\Triangle.exe
 
@@ -930,13 +1568,29 @@ build application: phony src\Application\application.lib
 
 build application.lib: phony src\Application\application.lib
 
+build engine: phony src\Engine\engine.lib
+
+build engine.lib: phony src\Engine\engine.lib
+
 build glfw: phony _deps\glfw-build\src\glfw3.lib
 
 build glfw3.lib: phony _deps\glfw-build\src\glfw3.lib
 
+build objreader: phony src\ObjectReader\objreader.lib
+
+build objreader.lib: phony src\ObjectReader\objreader.lib
+
+build spdlog: phony _deps\spdlog-build\spdlogd.lib
+
+build spdlogd.lib: phony _deps\spdlog-build\spdlogd.lib
+
 build uninstall: phony _deps\glfw-build\uninstall
 
 build update_mappings: phony _deps\glfw-build\src\update_mappings
+
+build xe-engine: phony src\XeEngine\xe-engine.lib
+
+build xe-engine.lib: phony src\XeEngine\xe-engine.lib
 
 # =============================================================================
 # Folder targets.
@@ -946,7 +1600,7 @@ build update_mappings: phony _deps\glfw-build\src\update_mappings
 #############################################
 # Folder: D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug
 
-build all: phony glad _deps\glfw-build\all _deps\glm-build\all src\Application\all src\Assignments\Triangle\all src\Assignments\Uniforms\all
+build all: phony glad _deps\glfw-build\all _deps\glm-build\all _deps\spdlog-build\all src\Application\all src\ObjectReader\all src\XeEngine\all src\Engine\all src\Assignments\Triangle\all src\Assignments\Uniforms\all src\Assignments\Phong\all
 
 # =============================================================================
 
@@ -979,9 +1633,23 @@ build _deps\glm-build\glm\all: phony
 # =============================================================================
 
 #############################################
+# Folder: D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/_deps/spdlog-build
+
+build _deps\spdlog-build\all: phony _deps\spdlog-build\spdlogd.lib
+
+# =============================================================================
+
+#############################################
 # Folder: D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Application
 
 build src\Application\all: phony src\Application\application.lib
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Assignments/Phong
+
+build src\Assignments\Phong\all: phony src\Assignments\Phong\Phong.exe
 
 # =============================================================================
 
@@ -998,20 +1666,41 @@ build src\Assignments\Triangle\all: phony src\Assignments\Triangle\Triangle.exe
 build src\Assignments\Uniforms\all: phony src\Assignments\Uniforms\Uniforms.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/Engine
+
+build src\Engine\all: phony src\Engine\engine.lib
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/ObjectReader
+
+build src\ObjectReader\all: phony src\ObjectReader\objreader.lib
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/src/XeEngine
+
+build src\XeEngine\all: phony src\XeEngine\xe-engine.lib
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ..\..\..\CMakeLists.txt ..\..\..\src\Application\CMakeLists.txt ..\..\..\src\Assignments\Triangle\CMakeLists.txt ..\..\..\src\Assignments\Uniforms\CMakeLists.txt CMakeCache.txt CMakeFiles\3.21.21080301-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeSystem.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\BasicConfigVersion-SameMajorVersion.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDependentOption.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckIncludeFile.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckLibraryExists.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\ExternalProject.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindGit.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindOpenGL.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindThreads.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\GNUInstallDirs.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake _deps\glfw-src\CMakeLists.txt _deps\glfw-src\CMake\cmake_uninstall.cmake.in _deps\glfw-src\CMake\glfw3.pc.in _deps\glfw-src\CMake\glfw3Config.cmake.in _deps\glfw-src\src\CMakeLists.txt _deps\glm-src\CMakeLists.txt _deps\glm-src\glm\CMakeLists.txt
+build build.ninja: RERUN_CMAKE | ..\..\..\CMakeLists.txt ..\..\..\src\Application\CMakeLists.txt ..\..\..\src\Assignments\Phong\CMakeLists.txt ..\..\..\src\Assignments\Triangle\CMakeLists.txt ..\..\..\src\Assignments\Uniforms\CMakeLists.txt ..\..\..\src\Engine\CMakeLists.txt ..\..\..\src\ObjectReader\CMakeLists.txt ..\..\..\src\XeEngine\CMakeLists.txt CMakeCache.txt CMakeFiles\3.21.21080301-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeSystem.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\BasicConfigVersion-SameMajorVersion.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCCompilerABI.c D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDependentOption.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckIncludeFile.c.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckIncludeFile.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckLibraryExists.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\ROCMClang-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\ExternalProject.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindGit.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindOpenGL.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindThreads.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\GNUInstallDirs.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake _deps\glfw-src\CMakeLists.txt _deps\glfw-src\CMake\cmake_uninstall.cmake.in _deps\glfw-src\CMake\glfw3.pc.in _deps\glfw-src\CMake\glfw3Config.cmake.in _deps\glfw-src\src\CMakeLists.txt _deps\glm-src\CMakeLists.txt _deps\glm-src\glm\CMakeLists.txt _deps\spdlog-src\CMakeLists.txt _deps\spdlog-src\cmake\ide.cmake _deps\spdlog-src\cmake\utils.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ..\..\..\CMakeLists.txt ..\..\..\src\Application\CMakeLists.txt ..\..\..\src\Assignments\Triangle\CMakeLists.txt ..\..\..\src\Assignments\Uniforms\CMakeLists.txt CMakeCache.txt CMakeFiles\3.21.21080301-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeSystem.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\BasicConfigVersion-SameMajorVersion.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDependentOption.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckIncludeFile.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckLibraryExists.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\ExternalProject.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindGit.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindOpenGL.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindThreads.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\GNUInstallDirs.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake _deps\glfw-src\CMakeLists.txt _deps\glfw-src\CMake\cmake_uninstall.cmake.in _deps\glfw-src\CMake\glfw3.pc.in _deps\glfw-src\CMake\glfw3Config.cmake.in _deps\glfw-src\src\CMakeLists.txt _deps\glm-src\CMakeLists.txt _deps\glm-src\glm\CMakeLists.txt: phony
+build ..\..\..\CMakeLists.txt ..\..\..\src\Application\CMakeLists.txt ..\..\..\src\Assignments\Phong\CMakeLists.txt ..\..\..\src\Assignments\Triangle\CMakeLists.txt ..\..\..\src\Assignments\Uniforms\CMakeLists.txt ..\..\..\src\Engine\CMakeLists.txt ..\..\..\src\ObjectReader\CMakeLists.txt ..\..\..\src\XeEngine\CMakeLists.txt CMakeCache.txt CMakeFiles\3.21.21080301-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeSystem.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\BasicConfigVersion-SameMajorVersion.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCCompilerABI.c D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDependentOption.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckIncludeFile.c.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckIncludeFile.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckLibraryExists.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\ROCMClang-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\ExternalProject.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindGit.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindOpenGL.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindThreads.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\GNUInstallDirs.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake D$:\Studia\Visual$ Studio\vstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake _deps\glfw-src\CMakeLists.txt _deps\glfw-src\CMake\cmake_uninstall.cmake.in _deps\glfw-src\CMake\glfw3.pc.in _deps\glfw-src\CMake\glfw3Config.cmake.in _deps\glfw-src\src\CMakeLists.txt _deps\glm-src\CMakeLists.txt _deps\glm-src\glm\CMakeLists.txt _deps\spdlog-src\CMakeLists.txt _deps\spdlog-src\cmake\ide.cmake _deps\spdlog-src\cmake\utils.cmake: phony
 
 
 #############################################

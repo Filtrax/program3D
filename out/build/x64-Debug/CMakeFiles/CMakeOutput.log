@@ -50,16 +50,16 @@ The C compiler identification is MSVC, found in "D:/Studia/programowanie3D/3d-ma
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Studia/Visual Studio/vstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_401a6 && [1/2] Building CXX object CMakeFiles\cmTC_401a6.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_401a6.exe
+Run Build Command(s):D:/Studia/Visual Studio/vstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_dc046 && [1/2] Building CXX object CMakeFiles\cmTC_dc046.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_dc046.exe
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/Studia/programowanie3D/3d-main/3d-main/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Studia/Visual Studio/vstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_3690e && [1/2] Building C object CMakeFiles\cmTC_3690e.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_3690e.exe
+Run Build Command(s):D:/Studia/Visual Studio/vstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_85b63 && [1/2] Building C object CMakeFiles\cmTC_85b63.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_85b63.exe
 
 
 
